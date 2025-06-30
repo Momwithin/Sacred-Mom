@@ -20,7 +20,7 @@ export default function SpeakToMom() {
       <div className="relative w-full flex items-center justify-between">
         <ThreeDotMenu />
         <div className="flex-1 flex justify-center">
-          <FlowerOfLife className="w-16 h-16 animate-pulse" />
+          <FlowerOfLife className="w-12 h-12 animate-pulse" />
         </div>
         <div className="w-6" />
       </div>
