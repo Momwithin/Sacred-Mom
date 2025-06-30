@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { FlowerOfLife } from '@/components/ui/FlowerOfLife';
-import { ThreeDotMenu } from '@/components/ui/ThreeDotMenu';
-import { InputBox } from '@/components/ui/InputBox';
+import { FlowerOfLife } from '../components/ui/FlowerOfLife';
+import { ThreeDotMenu } from '../components/ui/ThreeDotMenu';
+import { InputBox } from '../components/ui/InputBox';
 
 export default function SpeakToMom() {
   const [messages, setMessages] = useState([]);
